@@ -1,4 +1,4 @@
-import Layout from './components/MyLayout';
+import Layout from '../components/MyLayout';
 
 const aboutPageContent = <p>This is the about page</p>
 
