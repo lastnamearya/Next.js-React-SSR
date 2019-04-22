@@ -1,11 +1,5 @@
-import Layout from './components/MyLayout';
+import withLayout from './components/MyLayout';
 
-export default function Index() {
-  return (
-    <div>
-      <Layout>
-        <p>Hello Next.js</p>
-      </Layout>
-    </div>
-  )
-}
+const Page = () => <p>Hello Next.js</p>
+
+export default withLayout(Page);
